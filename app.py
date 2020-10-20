@@ -22,7 +22,8 @@ while True:
       encouragement_list.append("Life tires you out, take a break then pick yourself up and move on. You're strong enough :D")
       counter += 1
     if each_word == "lazy":
-      feelings_list.append("Finish what you have to do and enjoy yourselves later")
+      feelings_list.append("lazy")
+      encouragement_list.append("Finish your work now and enjoy life later")
       counter += 1
 
   if counter == 0:
