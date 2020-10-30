@@ -21,7 +21,14 @@ while True:
       feelings_list.append("tired")
       encouragement_list.append("Life tires you out, take a break then pick yourself up and move on. You're strong enough :D")
       counter += 1
-
+    if each_word == "angry":
+      feelings_list.append("angry")
+      encouragement_list.append("Breathe in breathe out relax. Don't say anything first")
+      counter += 1
+    if each_word == "confused":
+      feelings_list.append("confused")
+      encouragement_list.append("Ask your friend or someone for help")
+      counter += 1
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use different words?"
